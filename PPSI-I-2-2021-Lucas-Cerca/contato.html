@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  
+    
+<h1>Projeto Orientado</h1>
+
+<br>
+<br>
+
+<p>
+    <a href="home.html" target="_blank"> Home </a> | 
+    <a href="lucascerca.html" target="_blank">Lucas Cerca</a> | 
+    <a href="tabela.html" target="_blank">Tabela de curiosidades</a> | 
+    <a href="sites.html" target="_blank">Sites favoritos</a> | 
+    <a href="descobrindo.html" target="_blank">Descobrindo tags</a> |
+    <a href="contato.html" target="_blank">Contato</a> |
+    <a href="descobrindocss.html" target="_blank">Descobrindo propriedades CSS</a>
+</p>
+
+<h2>CONTATO</h2>
+
+<p class="dados">Preencha seus dados nos campos abaixo.</p>
+
+<br>
+
+<form action="http://hub.fatecrl.edu.br/sobrino/recebe-v2.php" method="post">
+
+<!--NOME-->
+
+<p>
+    <label for="nome"><strong>Nome:</strong></label>
+        <input placeholder="  Digite seu nome" autocomplete="name" type="text" id="nome" name="nome" size="35" maxlength="20" required>
+</p>
+
+<!--SENHA-->
+
+<p>
+    <label for="senha"><strong>Senha:</strong></label>
+        <input type="password" placeholder="  Digite sua senha" id="senha" name="senha" size="35" maxlength="20" required>
+</p>
+
+<!--E-MAIL-->
+
+<p>
+    <label for="email"><strong>e-mail:</strong></label>
+        <input type="email" placeholder="  Digite um e-mail valido" id="email" name="email" size="35" maxlength="30" required>
+</p>
+
+
+<br>
+<!-- DATA NASCIMENTO-->
+
+<p><label for="data"><strong>Coloque a sua data de nascimento:</strong></label></p>
+        <p><input type="date" id="data" name="data"></p>
+
+
+<br>
+<!--NUMERO DE TELEFONE-->
+
+<p><label for="telefone"><strong>Numero de telefone:</strong></label></p>
+    <p><input type="tel" name="telefone" id="telefone" placeholder="(DDD)-91234-5678" pattern="[0-9]{2}[0-9]{5}[0-9]{4}" maxlength="11"></p>
+
+
+<br>
+<!--RADIO BUTTON-->
+
+<fieldset>
+        <legend><strong>Sexo</strong></legend>
+            <input type="radio" name="sexo" id="sexo1" value="masculino">
+                <label for="sexo1">Masculino</label>
+            <input type="radio" name="sexo" id="sexo2" value="feminino">
+                <label for="sexo2">Feminino</label>
+            <input type="radio" name="sexo" id="sexo3" value="outros">
+                <label for="sexo2">Outros...</label>
+</fieldset>
+
+<br>
+
+<!-- CHECK BOX -->
+
+<fieldset id="check">
+    <legend><strong>Conhecimentos</strong></legend>
+    <input type="checkbox" name="conhecimentos[]" id="html" value="html">
+    <label for="html">HTML</label>
+    <input type="checkbox" name="conhecimentos[]" id="css" value="css">
+    <label for="css">CSS</label>
+    <input type="checkbox" name="conhecimentos[]" id="javascript" value="javascript">
+    <label for="javascript">JavaScript</label>
+    <input type="checkbox" name="conhecimentos[]" id="python" value="python">
+    <label for="python">Python</label>
+</fieldset>
+
+
+<br>
+<!--SELECT-->
+
+<p>
+    <strong>País:</strong>
+    <select name="pais" id="pais" size="1" required>
+        <option value="" selected="selected">--- escolha ---</option>
+        <option value="Alemanha">Alemanha</option>
+        <option value="Azerbaijao">Azerbaijão</option>
+        <option value="Brasil">Brasil</option>
+        <option value="EstadosUnidos">Estados Unidos</option>
+        <option value="Nenhum">Nenhum</option>
+      </select>
+</p>
+
+<br>
+<!--TEXT AREA-->
+
+<p><strong>Conte sobre você:</strong></p>
+    <p><textarea name="textarea" id="textarea" rows="10" cols="30" placeholder=" Escreva um pouco sobre você."></textarea></p>
+
+
+
+<!-- BOTAO ADD FILE -->
+
+<br>
+<p>Adicione seu currículo clicando no botão abaixo.</p>
+<p><strong><label for="file" class="file">Aqui :D</label></strong></p>
+    <p><input type="file" name="file" id="file" accept=".pdf, .docx, .doc"></p>
+
+
+
+
+<br>
+<br>
+<!--BOTAO-->
+
+<button class="botao" id="botao">cadastrar</button>
+<input type="reset" value="limpar" id="botaolimpar">
+</form>
+
+<br>
+<br>
+<br>
+
+<footer><i> @lucascerk </i></footer>
+
+</body>
+</html>
+
+<!-- CONTROLES NOVOS USADOS
+
+    CHECKBOX
+    RADIO BUTTON
+    SELECT E OPTION
+    text area
+    INPUT FILE
+    DATA DE NASCIMENTO
+    NUMERO DE TELEFONE
+
+
+-->
