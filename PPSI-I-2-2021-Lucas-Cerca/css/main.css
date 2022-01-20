@@ -3,8 +3,8 @@ body {
     font-size: 15px;
     text-align: center;
     text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.342);
-    background-image: linear-gradient(to right, white, rgba(49, 193, 212, 0.637));
-
+    background: url(../imagens/fundo.jpg) no-repeat center;
+    background-size: cover;
 }
 
 
