@@ -1,6 +1,9 @@
-# Comandos para o github
+# Site de apresentação
 
-<h1>comandos fundamentais</h1>
+<h1>Meu site de apresentação</h1>
+<p>Neste site em construção, contém minhas páginas desenvolvidas com os conhecimentos que possuo no front-end até o momento. Sempre que necessário haverá atualizações no conteúdo.</p>
+
+<h2> Comandos para o github</h2>
 
 CRIAR PASTA VAZIA PARA CLONAR O REPOSITORIO
 
