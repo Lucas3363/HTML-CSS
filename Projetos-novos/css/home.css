@@ -28,7 +28,7 @@ body {
     /* importante /\ */
     width: 60%;
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 20%;
     /* border: 1px solid; */
 }
@@ -88,7 +88,8 @@ h1 {
 
 .esquerda {
     font-size: 20px;
-    margin-left: 7px;
+    text-align: justify;
+    margin-right: 25px;
 }
 
 h2 {
@@ -100,7 +101,7 @@ h2 {
 li {
     list-style-type: none;
     font-size: 18px;
-    margin-left: 130px;
+    margin-left: 45px;
     margin-top: 35px;
 }
 
@@ -131,7 +132,6 @@ li {
 .imgcheck{
     width: 15px;
     height: 15px;
-    /* vertical-align: middle; */
 }
 
 .logolinkedin {
