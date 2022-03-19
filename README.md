@@ -1,5 +1,3 @@
-# Site de apresentação
-
 <h1>Meu site de apresentação</h1>
 <p>Neste site em construção, contém minhas páginas desenvolvidas com os conhecimentos que possuo no front-end até o momento. Sempre que necessário haverá atualizações no conteúdo.</p>
 
